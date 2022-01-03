@@ -12,12 +12,12 @@ public class stepDefinitation {
 
     @Given("Navigate to facebook login page")
     public void navigate_to_facebook_login_page() throws Throwable {
-    System.out.println("Login");
+    System.out.println("1Login");
     }
 
     @When("Enter the user name and password and click on submit button")
     public void enter_the_user_name_and_password_and_click_on_submit_button() throws Throwable {
-    	 System.out.println("Login_ submit");
+    	 System.out.println("2Login_ submit");
     }
 
     @Then("User should be logged into the facebook account")
